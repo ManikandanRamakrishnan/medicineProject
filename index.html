@@ -1,0 +1,57 @@
+<doctype! html>
+<head>
+<title>Login Page</title>
+</head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--<script src="LoginScript.js"></script>-->
+<style>
+div{
+position:absolute;
+top:180px;
+background-color:#e5eae6;
+left:32%;
+width:35%;
+height:45%;
+border:7px solid black;
+border-radius:30px;
+}
+body{
+background-color:#0d405b;
+}
+#Login{
+color:black;
+}
+input {
+font-size:30px;
+  border:2px solid black;
+  border-radius:10px;
+    background-color:white;
+    color: black;
+	height:40px;
+}
+span{
+color:black;
+font-size:20px
+}
+p{
+color:red;
+}
+</style>
+<body>
+<div>
+<br><br><br>
+<form action="Login.php" method="post">
+<center><span>UserName       </span><input  name="name" id="username" type="text" >
+<br><br><span>PassWord       </span><input  name="pwd" id="password" type="password" ><br><br>
+<button type="submit"  class="btn btn-primary" id="Login">Login</button>
+</form>
+<p id="warning" color:"red"></p>
+</center>
+</div>
+
+</body>
+</head>
