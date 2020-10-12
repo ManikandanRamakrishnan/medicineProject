@@ -6,7 +6,7 @@ var specialElementHandlers = {
         return true;
     }
 };
-      var test;
+      //var test;
 	var value;
 	var clicked=false;
 	 var price;
